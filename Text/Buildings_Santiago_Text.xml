@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_FILM_STUDIO_NAME" Language="en_US">
+			<Text>Santiago Corporation</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FILM_STUDIO_DESCRIPTION" Language="en_US">
+			<Text>American Unique Building, give 2 [ICON_Food] to all farms in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FILM_STUDIO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>American, Santiago.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_FILM_STUDIO_NAME" Language="zh_Hans_CN">
+			<Text>圣地亚哥集团</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FILM_STUDIO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>美国特色建筑：本城市的农场增加 2 [ICON_Food] 产出。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_FILM_STUDIO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>全球五百强企业美国圣地亚戈农业集团位于弗罗里达州，是一家集科研、制造、国际国内市场一体化的以环保农药、健康化肥等生命科学产业为主体的高新技术企业。金坷垃化肥是其代表性产品。小麦有了金坷垃，能吸收两米以下的氮磷钾，妈妈再也不用担心我的学习啦。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

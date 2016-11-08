@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+	<Technologies>
+		<Update>
+			<Where TechnologyType="TECH_CHEMISTRY" />
+			<Set Description="LOC_TECH_CHEMISTRY_DESCRIPTION" />
+		</Update>
+	</Technologies>
+	<Improvement_BonusYieldChanges>
+		<Row Id="22" ImprovementType="IMPROVEMENT_FARM" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqTech="TECH_CHEMISTRY"/>
+	</Improvement_BonusYieldChanges>
+</GameInfo>

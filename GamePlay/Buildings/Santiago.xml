@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+<!--  美国特色建筑 圣地亚哥 更改 电影制片厂 -->
+
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_FILM_STUDIO"/>
+			<Set PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" AdvisorType="ADVISOR_GENERIC" PrereqTech="TECH_CHEMISTRY" Housing="2" Maintenance="5"/>
+		</Update>
+	</Buildings>
+
+	<BuildingReplaces>
+		<Delete CivUniqueBuildingType="BUILDING_FILM_STUDIO" ReplacesBuildingType="BUILDING_BROADCAST_CENTER" />
+	</BuildingReplaces>
+
+	<Building_GreatPersonPoints>
+		<Delete BuildingType="BUILDING_FILM_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"/>
+		<Delete BuildingType="BUILDING_FILM_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/>
+		<Row BuildingType="BUILDING_FILM_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+
+	<Building_GreatWorks>
+		<Delete BuildingType="BUILDING_FILM_STUDIO" GreatWorkSlotType="GREATWORKSLOT_MUSIC"/>
+	</Building_GreatWorks>
+
+	<Building_YieldChanges>
+		<Delete BuildingType="BUILDING_FILM_STUDIO" YieldType="YIELD_CULTURE" />
+		<Row BuildingType="BUILDING_FILM_STUDIO" YieldType="YIELD_PRODUCTION" YieldChange="2" />
+	</Building_YieldChanges>
+
+	<BuildingPrereqs>
+		<Delete Building="BUILDING_FILM_STUDIO" PrereqBuilding="BUILDING_MUSEUM_ART" />
+		<Delete Building="BUILDING_FILM_STUDIO" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT" />
+	</BuildingPrereqs>
+
+
+	<!-- 建筑特性：提高城市农场2食物产出 -->
+	<BuildingModifiers>
+		<Delete>
+			<BuildingType>BUILDING_FILM_STUDIO</BuildingType>
+			<ModifierId>FILMSTUDIO_ENHANCEDLATETOURISM</ModifierId>
+		</Delete>
+
+		<Row>
+			<BuildingType>BUILDING_FILM_STUDIO</BuildingType>
+			<ModifierId>FILM_STUDIO_ADD_FARM_YIELD</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>FILM_STUDIO_ADD_FARM_YIELD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FARM</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>FILM_STUDIO_ADD_FARM_YIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>FILM_STUDIO_ADD_FARM_YIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FARM</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requrements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requrements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+	</RequirementArguments>
+	
+</GameInfo>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_POLICY_JKL_TRADE_NAME" Language="en_US">
+			<Text>JINKELA Trade</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_JKL_TRADE_DESCRIPTION" Language="en_US">
+			<Text>Trade route provides 2 [ICON_Food]. International trade route provides 4 [ICON_Gold].</Text>
+		</Replace>
+
+		<Replace Tag="LOC_POLICY_JKL_TRADE_NAME" Language="zh_Hans_CN">
+			<Text>金坷垃贸易</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_JKL_TRADE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>贸易路线获得 2 [ICON_Food]，国际贸易路线获得 4 [ICON_Gold]。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

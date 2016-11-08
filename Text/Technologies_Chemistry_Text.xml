@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TECH_CHEMISTRY_DESCRIPTION" Language="en_US">
+			<Text>Improve 1 [ICON_Food] yield from farms. Unlock American unique building Santiago Corporation</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CHEMISTRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提高农场 1 [ICON_Food] 产出, 解锁美国特色建筑 圣地亚哥集团。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

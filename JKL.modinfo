@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="db1ec46e-dc35-9604-540d-278bd4a0bce6" version="1">
+	<Properties>
+		<Name>LOC_JKL_TITLE</Name>
+		<Teaser>LOC_JKL_TEASER</Teaser>
+		<Description>LOC_JKL_DESCRIPTION</Description>
+		<Authors>LOC_JKL_AUTHORS</Authors>
+		<!-- <ShowInBrowser>AlwaysHidden</ShowInBrowser> -->
+		<!-- <EnabledByDefault>1</EnabledByDefault> -->
+		<!-- <EnabledAtStartup>1</EnabledAtStartup> -->
+	</Properties>
+
+	<LocalizedText>
+		<Text id="LOC_JKL_TITLE">
+			<en_US>JINKELA</en_US>
+			<zh_Hans_CN>金坷垃</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_JKL_TEASER">
+			<en_US>JINKALA helps wheat yield 1,800 kg per mu.</en_US>
+			<zh_Hans_CN>有了金坷垃，小麦亩产一千八。</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_JKL_DESCRIPTION">
+			<en_US>THE JINKALA MOD.</en_US>
+		</Text>
+		<Text id="LOC_JKL_AUTHORS">
+			<en_US>ZhouYzzz</en_US>
+		</Text>
+	</LocalizedText>
+
+	<Components>
+		<UpdateDatabase id="JKL_GAMEPLAY">
+			<Items>
+				<File>GamePlay/Buildings/Santiago.xml</File>
+				<File>GamePlay/Policies/JKL_Trade.xml</File>
+				<File>GamePlay/Resources/Wheat.xml</File>
+				<File>GamePlay/Technologies/Chemistry.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText id="JKL_TEXT">
+			<Items>
+				<File>Text/Buildings_Santiago_Text.xml</File>
+				<File>Text/Policies_JKL_Trade_Text.xml</File>
+				<File>Text/Resources_Wheat_Text.xml</File>
+				<File>Text/Technologies_Chemistry_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>
+
+	<Settings>
+	</Settings>
+	<Files>
+		<File>GamePlay/Buildings/Santiago.xml</File>
+		<File>GamePlay/Policies/JKL_Trade.xml</File>
+		<File>GamePlay/Resources/Wheat.xml</File>
+		<File>GamePlay/Technologies/Chemistry.xml</File>
+		<File>Text/Buildings_Santiago_Text.xml</File>
+		<File>Text/Policies_JKL_Trade_Text.xml</File>
+		<File>Text/Resources_Wheat_Text.xml</File>
+		<File>Text/Technologies_Chemistry_Text.xml</File>
+	</Files>
+</Mod>
